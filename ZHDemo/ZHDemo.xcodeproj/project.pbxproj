@@ -51,6 +51,8 @@
 		E2CBF48E25A86DDB0097026F /* ZHDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CBF49225A86DDB0097026F /* ZHDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHDemoUITests.m; sourceTree = "<group>"; };
 		E2CBF49425A86DDB0097026F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2CBF4F725A94B980097026F /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		E2CBF4F825A94B980097026F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,8 @@
 				E2CBF46C25A86DDA0097026F /* AppDelegate.m */,
 				E2CBF47125A86DDA0097026F /* ViewController.h */,
 				E2CBF47225A86DDA0097026F /* ViewController.m */,
+				E2CBF4F825A94B980097026F /* PrefixHeader.pch */,
+				E2CBF4F725A94B980097026F /* Header.h */,
 				E2CBF47425A86DDA0097026F /* Main.storyboard */,
 				E2CBF47725A86DDB0097026F /* Assets.xcassets */,
 				E2CBF47925A86DDB0097026F /* LaunchScreen.storyboard */,
@@ -436,6 +440,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/dpstorm/ZHSDK/ZHDemo/ZHDemo/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ZHDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,6 +459,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/dpstorm/ZHSDK/ZHDemo/ZHDemo/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ZHDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

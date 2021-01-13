@@ -6,9 +6,14 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E2E5E4B525AEDA99007D144A /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E5E4B425AEDA99007D144A /* test.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E2CBF4D225A86E010097026F /* ZHBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CBF4D525A86E010097026F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2E5E4B425AEDA99007D144A /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +46,7 @@
 		E2CBF4D425A86E010097026F /* ZHBundle */ = {
 			isa = PBXGroup;
 			children = (
+				E2E5E4B425AEDA99007D144A /* test.png */,
 				E2CBF4D525A86E010097026F /* Info.plist */,
 			);
 			path = ZHBundle;
@@ -102,6 +108,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E5E4B525AEDA99007D144A /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
