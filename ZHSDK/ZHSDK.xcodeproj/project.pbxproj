@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E20317FA25AEE40400480AAF /* ZHAPIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E20317F825AEE40400480AAF /* ZHAPIManager.h */; };
+		E20317FB25AEE40400480AAF /* ZHAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E20317F925AEE40400480AAF /* ZHAPIManager.m */; };
 		E2CBF4B725A86DEB0097026F /* ZHSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CBF4AD25A86DEA0097026F /* ZHSDK.framework */; };
 		E2CBF4BC25A86DEB0097026F /* ZHSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CBF4BB25A86DEB0097026F /* ZHSDKTests.m */; };
 		E2CBF4BE25A86DEB0097026F /* ZHSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E2CBF4B025A86DEA0097026F /* ZHSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2E5E4D025AEDCBC007D144A /* ZHHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E5E4CF25AEDCBC007D144A /* ZHHeader.h */; };
 		E2E5E4D625AEDD21007D144A /* ZHPrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = E2E5E4D525AEDD21007D144A /* ZHPrefixHeader.pch */; };
+		E2E5E4DD25AEDDE4007D144A /* ZHAccountManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E5E4DB25AEDDE4007D144A /* ZHAccountManager.h */; };
+		E2E5E4DE25AEDDE4007D144A /* ZHAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E5E4DC25AEDDE4007D144A /* ZHAccountManager.m */; };
+		E2E5E4E725AEDE6C007D144A /* ZHLoginVC.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E5E4E525AEDE6C007D144A /* ZHLoginVC.h */; };
+		E2E5E4E825AEDE6C007D144A /* ZHLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E5E4E625AEDE6C007D144A /* ZHLoginVC.m */; };
+		E2E5E4F025AEDF5D007D144A /* ZHAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E5E4EE25AEDF5D007D144A /* ZHAPI.h */; };
+		E2E5E4F125AEDF5D007D144A /* ZHAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E5E4EF25AEDF5D007D144A /* ZHAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E20317F825AEE40400480AAF /* ZHAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHAPIManager.h; sourceTree = "<group>"; };
+		E20317F925AEE40400480AAF /* ZHAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHAPIManager.m; sourceTree = "<group>"; };
 		E2CBF4AD25A86DEA0097026F /* ZHSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZHSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CBF4B025A86DEA0097026F /* ZHSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHSDK.h; sourceTree = "<group>"; };
 		E2CBF4B125A86DEA0097026F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +43,12 @@
 		E2CBF4BD25A86DEB0097026F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2E5E4CF25AEDCBC007D144A /* ZHHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHHeader.h; sourceTree = "<group>"; };
 		E2E5E4D525AEDD21007D144A /* ZHPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHPrefixHeader.pch; sourceTree = "<group>"; };
+		E2E5E4DB25AEDDE4007D144A /* ZHAccountManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHAccountManager.h; sourceTree = "<group>"; };
+		E2E5E4DC25AEDDE4007D144A /* ZHAccountManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHAccountManager.m; sourceTree = "<group>"; };
+		E2E5E4E525AEDE6C007D144A /* ZHLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHLoginVC.h; sourceTree = "<group>"; };
+		E2E5E4E625AEDE6C007D144A /* ZHLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHLoginVC.m; sourceTree = "<group>"; };
+		E2E5E4EE25AEDF5D007D144A /* ZHAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHAPI.h; sourceTree = "<group>"; };
+		E2E5E4EF25AEDF5D007D144A /* ZHAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +93,10 @@
 			children = (
 				E2CBF4B025A86DEA0097026F /* ZHSDK.h */,
 				E2CBF4B125A86DEA0097026F /* Info.plist */,
+				E2E5E4ED25AEDF3A007D144A /* ZHAPI */,
 				E2E5E4CE25AEDC25007D144A /* ZHTools */,
-				E2E5E4CD25AEDC21007D144A /* ZHAccountManager */,
 				E2E5E4CB25AEDC21007D144A /* ZHClasses */,
+				E2E5E4CD25AEDC21007D144A /* ZHAccountManager */,
 				E2E5E4CC25AEDC21007D144A /* ZHHeader */,
 			);
 			path = ZHSDK;
@@ -97,6 +114,9 @@
 		E2E5E4CB25AEDC21007D144A /* ZHClasses */ = {
 			isa = PBXGroup;
 			children = (
+				E2E5E4E225AEDE53007D144A /* controller */,
+				E2E5E4E425AEDE53007D144A /* model */,
+				E2E5E4E325AEDE53007D144A /* view */,
 			);
 			path = ZHClasses;
 			sourceTree = "<group>";
@@ -113,6 +133,8 @@
 		E2E5E4CD25AEDC21007D144A /* ZHAccountManager */ = {
 			isa = PBXGroup;
 			children = (
+				E2E5E4DB25AEDDE4007D144A /* ZHAccountManager.h */,
+				E2E5E4DC25AEDDE4007D144A /* ZHAccountManager.m */,
 			);
 			path = ZHAccountManager;
 			sourceTree = "<group>";
@@ -124,6 +146,40 @@
 			path = ZHTools;
 			sourceTree = "<group>";
 		};
+		E2E5E4E225AEDE53007D144A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2E5E4E525AEDE6C007D144A /* ZHLoginVC.h */,
+				E2E5E4E625AEDE6C007D144A /* ZHLoginVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E2E5E4E325AEDE53007D144A /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E2E5E4E425AEDE53007D144A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E2E5E4ED25AEDF3A007D144A /* ZHAPI */ = {
+			isa = PBXGroup;
+			children = (
+				E2E5E4EE25AEDF5D007D144A /* ZHAPI.h */,
+				E2E5E4EF25AEDF5D007D144A /* ZHAPI.m */,
+				E20317F825AEE40400480AAF /* ZHAPIManager.h */,
+				E20317F925AEE40400480AAF /* ZHAPIManager.m */,
+			);
+			path = ZHAPI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -133,7 +189,11 @@
 			files = (
 				E2CBF4BE25A86DEB0097026F /* ZHSDK.h in Headers */,
 				E2E5E4D025AEDCBC007D144A /* ZHHeader.h in Headers */,
+				E2E5E4DD25AEDDE4007D144A /* ZHAccountManager.h in Headers */,
+				E2E5E4F025AEDF5D007D144A /* ZHAPI.h in Headers */,
 				E2E5E4D625AEDD21007D144A /* ZHPrefixHeader.pch in Headers */,
+				E2E5E4E725AEDE6C007D144A /* ZHLoginVC.h in Headers */,
+				E20317FA25AEE40400480AAF /* ZHAPIManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20317FB25AEE40400480AAF /* ZHAPIManager.m in Sources */,
+				E2E5E4F125AEDF5D007D144A /* ZHAPI.m in Sources */,
+				E2E5E4E825AEDE6C007D144A /* ZHLoginVC.m in Sources */,
+				E2E5E4DE25AEDDE4007D144A /* ZHAccountManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
