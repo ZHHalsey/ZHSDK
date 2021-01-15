@@ -70,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E21D8DD125B1806000042CA7 /* ZHThirdSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ZHThirdSDK;
+			path = ZHSDK/ZHThirdSDK;
+			sourceTree = SOURCE_ROOT;
+		};
 		E2CBF4A325A86DEA0097026F = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +106,7 @@
 				E2E5E4CB25AEDC21007D144A /* ZHClasses */,
 				E2E5E4CD25AEDC21007D144A /* ZHAccountManager */,
 				E2E5E4CC25AEDC21007D144A /* ZHHeader */,
+				E21D8DD125B1806000042CA7 /* ZHThirdSDK */,
 			);
 			path = ZHSDK;
 			sourceTree = "<group>";
