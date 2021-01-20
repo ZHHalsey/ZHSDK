@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import <ZHSDK/ZHAPI.h>
 
 @interface ViewController ()
 
@@ -18,6 +19,8 @@
     // Do any additional setup after loading the view.
     self.title = @"vc";
     self.view.backgroundColor = [UIColor grayColor];
+    [ZHAPI testLog];
+    
     NSArray *btnTitle = @[@"登录", @"支付", @"push到图片页", @"push到web页面"];
     for (int i = 0; i < btnTitle.count; i++) {
         UIButton *btn = [UIButton buttonWithType:0];

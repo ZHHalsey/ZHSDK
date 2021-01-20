@@ -21,4 +21,10 @@ static ZHAPIManager *_manager;
     return _manager;
 }
 
+- (void)initWithAppKey:(nonnull NSString *)appkey
+                 AppId:(nonnull NSString *)appId
+            MerchantId:(nonnull NSString *)merchantId{
+    
+}
+
 @end

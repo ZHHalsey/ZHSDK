@@ -18,7 +18,7 @@
 		E2E5E4DE25AEDDE4007D144A /* ZHAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E5E4DC25AEDDE4007D144A /* ZHAccountManager.m */; };
 		E2E5E4E725AEDE6C007D144A /* ZHLoginVC.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E5E4E525AEDE6C007D144A /* ZHLoginVC.h */; };
 		E2E5E4E825AEDE6C007D144A /* ZHLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E5E4E625AEDE6C007D144A /* ZHLoginVC.m */; };
-		E2E5E4F025AEDF5D007D144A /* ZHAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E5E4EE25AEDF5D007D144A /* ZHAPI.h */; };
+		E2E5E4F025AEDF5D007D144A /* ZHAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E5E4EE25AEDF5D007D144A /* ZHAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2E5E4F125AEDF5D007D144A /* ZHAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E5E4EF25AEDF5D007D144A /* ZHAPI.m */; };
 /* End PBXBuildFile section */
 
@@ -197,9 +197,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2CBF4BE25A86DEB0097026F /* ZHSDK.h in Headers */,
+				E2E5E4F025AEDF5D007D144A /* ZHAPI.h in Headers */,
 				E2E5E4D025AEDCBC007D144A /* ZHHeader.h in Headers */,
 				E2E5E4DD25AEDDE4007D144A /* ZHAccountManager.h in Headers */,
-				E2E5E4F025AEDF5D007D144A /* ZHAPI.h in Headers */,
 				E2E5E4D625AEDD21007D144A /* ZHPrefixHeader.pch in Headers */,
 				E2E5E4E725AEDE6C007D144A /* ZHLoginVC.h in Headers */,
 				E20317FA25AEE40400480AAF /* ZHAPIManager.h in Headers */,
